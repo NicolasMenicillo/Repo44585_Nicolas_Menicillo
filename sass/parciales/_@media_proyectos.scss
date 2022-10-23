@@ -1,0 +1,26 @@
+ /* PROYECTOS */
+
+ /* 1090PX */
+ @media (max-width: 1090px){
+    .section{
+       grid-template-columns: repeat(2, 1fr);
+    }
+ }
+/* FIN 1090PX*/
+
+/* 722PX */
+@media (max-width: 722px){
+   .section{
+    grid-template-columns: repeat(1, 1fr);
+   }
+}
+/* FIN 722PX */
+
+/* 350PX */
+@media (max-width: 350px){
+    .section div img{
+        width: 15rem;
+        height: 15rem;
+}
+
+}

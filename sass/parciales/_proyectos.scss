@@ -1,0 +1,16 @@
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    justify-items: center;
+    margin: 2rem;
+}
+.section div img{
+    width: 20rem;
+height: 20rem;
+object-fit: cover;
+border-radius: 5%;
+}
+.imagen{
+    border: solid 3px black
+}

@@ -1,0 +1,22 @@
+.sections{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.section__art{
+    width: 30rem;
+    height: 38rem;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+   
+ }
+ .textos{
+    text-align: justify;
+    font-weight: bold  ;
+}
+.titulos{
+    margin: 1rem;
+    color: coral;
+}

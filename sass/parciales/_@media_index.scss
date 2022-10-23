@@ -1,0 +1,70 @@
+/* RESPONSIV INDEX */
+   
+/* 1082PX */
+@media (max-width: 1082px) { 
+
+    .nav__btn{
+      flex-direction: column;
+    }
+  
+  .articulos{
+      margin: 10px;
+  }
+  
+  }
+   /* FIN 1082PX */ 
+  
+  /* 936px */
+   @media (max-width: 936px){
+  .section__principal{
+      flex-direction: column;
+      height: 100%
+      
+  }
+  
+  .header__titulo{
+      padding-left: 1rem;
+      font-size: 3rem;
+  }
+  
+  
+  .articulos__titulo{
+      text-align: start;
+  }
+  /* FIN 936 */
+  
+  
+  /* 553PX */
+  
+   }
+   @media (max-width: 553px){
+  .section__principal{
+      align-items: center;
+  }
+  .art{
+      align-self: center;
+  }
+  .header__titulo{
+      font-size: 2rem;
+  }
+  
+   }
+   /* FIN 553PX */
+  
+  
+  /* 465PX*/
+  
+   @media (max-width: 456px){
+      .header{
+          flex-direction: column;
+          align-items: center;
+      }
+      footer{
+          flex-direction: column;
+          align-items: center;
+          height: 100%;
+      }
+   }
+   /* 456PX */
+   /* FIN INDEX */
+  

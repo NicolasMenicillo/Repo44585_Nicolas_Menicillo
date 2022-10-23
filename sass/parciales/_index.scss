@@ -1,0 +1,25 @@
+.section__principal{
+    display: flex;
+    justify-content: space-around;
+   height: 800px;
+    margin: 50px;
+   
+}
+.articulos__img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    &__titulos{
+        text-align: center;
+    margin: 10px;
+    }
+}
+.articulo__texto{
+    width: 20rem;
+    color:brown;
+    font-weight:900;
+    text-align: justify;
+}
+.art{
+    align-self: flex-end;
+}
