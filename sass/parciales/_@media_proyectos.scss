@@ -19,8 +19,7 @@
 /* 350PX */
 @media (max-width: 350px){
     .section div img{
-        width: 15rem;
-        height: 15rem;
+        @include width-heigth (15rem, 15rem);
 }
 
 }

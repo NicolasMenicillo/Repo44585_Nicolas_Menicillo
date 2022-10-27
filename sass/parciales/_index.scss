@@ -1,13 +1,12 @@
 .section__principal{
     display: flex;
     justify-content: space-around;
-   height: 800px;
+    height: 800px;
     margin: 50px;
    
 }
 .articulos__img{
-    width: 20rem;
-    height: 20rem;
+    @include width-heigth (20rem, 20rem);
     border-radius: 10px;
     &__titulos{
         text-align: center;
@@ -22,4 +21,7 @@
 }
 .art{
     align-self: flex-end;
+}
+.articulos__titulo{
+   text-align: center;
 }

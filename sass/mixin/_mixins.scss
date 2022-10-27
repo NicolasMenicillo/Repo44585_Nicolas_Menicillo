@@ -1,0 +1,10 @@
+@mixin flexbox ($justify, $aling) {
+    display: flex;
+    justify-content:$justify;
+    align-items: $aling;
+}
+
+@mixin width-heigth ($wid, $hei) {
+     width: $wid;
+     height: $hei;
+}
