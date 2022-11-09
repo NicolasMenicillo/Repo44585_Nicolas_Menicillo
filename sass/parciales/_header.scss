@@ -11,14 +11,13 @@
     }
     &__titulo{
         font-size: 4rem;
-        padding-left: 20rem;
+        padding-left: 8rem;
         color: orangered;
        align-self: center;
     }
 }
 .nav__btn{
-    @include flexbox (end, center);     
-    font-size: 20px;
+    @include flexbox (end, center)     
 }
 .nav__li{
     list-style: none;
